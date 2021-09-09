@@ -1,0 +1,28 @@
+.landing-container {
+    background: rgb(250,249,245);
+    display: flex;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+}
+
+img {
+    height: 50%;
+    width: 100%;
+}
+
+.landing-image {
+    display: flex;
+    max-width: 33%;
+    
+}
+
+.content-wrapper {
+    /* max-width: 780px; */
+    width: 100%;
+    padding: 10px 
+}
+
+p {
+    font-size: 12px;
+}
