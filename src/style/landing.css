@@ -1,28 +1,36 @@
 .landing-container {
-    background: rgb(250,249,245);
+    background: #faf9f5;
     display: flex;
-    align-items: center;
-    height: 500px;
-    width: 100%;
+    align-items: row;
+    justify-content: center;
+    height: 400px;
+    width: 100vw;
+    padding-top: 175px;
+    border: solid 1px rgb(45, 45, 45)
+
 }
 
 img {
-    height: 50%;
-    width: 100%;
+    max-height: 55%;
+    max-width: 100%;
+    padding-right: 25px;
 }
 
 .landing-image {
-    display: flex;
     max-width: 33%;
-    
 }
 
 .content-wrapper {
-    /* max-width: 780px; */
-    width: 100%;
-    padding: 10px 
+    max-width: 780px;
 }
 
+h2 {
+font-family: 'M PLUS 1p', sans-serif;}
+
 p {
-    font-size: 12px;
+    font-size: 1em;
+font-family: 'M PLUS 1p', sans-serif;}
+
+button {
+    color: rgb(184, 31, 31);
 }

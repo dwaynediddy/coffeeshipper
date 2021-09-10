@@ -10,7 +10,7 @@ const Landing = () => {
                 <img src={LandingImg} className="LandingImg" alt="Landing hustle cup" />
             </div>
             <div className="content-wrapper">
-                <h3 className="landing-header">Brand Name</h3>
+                <h2 className="landing-header">Brand Name</h2>
                     <p>{content}</p>
                 <button>Start Shopping</button>
             </div>
