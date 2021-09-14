@@ -25,7 +25,7 @@
     justify-content: center;
     position: fixed;
     top: 0;
-    /* left: -100%; */
+    left: -100%;
     transition: 850ms;
 }
 
@@ -46,7 +46,7 @@
 .nav-text a {
     text-decoration: none;
     color: red;
-    font: size 18px;
+    font-size: 18px;
     width: 95%;
     height: 100%;
     display: flex;
@@ -65,7 +65,7 @@
 
 .navbar-toggle {
     background-color:red;
-    width: 100%;
+    width: 80%;
     height: 80px;
     justify-content: flex-start;
     align-items: center;
