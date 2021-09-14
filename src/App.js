@@ -1,17 +1,27 @@
 import './App.css'
-import TopNav from './components/TopNav'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+
+
+// import TopNav from './components/navigation/TopNav'
+import SideBar from './components/navigation/SideBar'
 import Landing from './components/Landing'
 import Banner from './components/Banner'
 import ContactUs from './components/ContactForm'
 
 function App() {
   return (
-    <div className="App">
-      <TopNav />
-      <Landing />
-      <Banner />
-      <ContactUs />
-    </div>
+    <>
+      <Router className="App">
+          {/* <TopNav /> */}
+          <SideBar />
+        <Switch>
+          <Route path="/" />
+        </Switch>
+        <Landing />
+        <Banner />
+        <ContactUs />
+      </Router>
+    </>
   )
 }
 
