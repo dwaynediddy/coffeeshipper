@@ -25,11 +25,13 @@ img {
 }
 
 h2 {
-font-family: 'M PLUS 1p', sans-serif;}
+    font-family: 'M PLUS 1p', sans-serif
+}
 
 p {
     font-size: 1em;
-font-family: 'M PLUS 1p', sans-serif;}
+    font-family: 'M PLUS 1p', sans-serif
+}
 
 button {
     color: rgb(184, 31, 31);

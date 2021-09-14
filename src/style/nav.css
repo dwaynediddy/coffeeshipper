@@ -1,0 +1,8 @@
+ul {
+    display: flex;
+    align-items: column;
+    justify-content: space-between;
+    font-weight: bold;
+    list-style: none;
+    font-family: 'M PLUS 1p', sans-serif
+}
