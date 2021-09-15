@@ -8,6 +8,7 @@ import '../../style/sidemenu.css'
 import * as AiIcons from 'react-icons/ai'
 
 import logo from '../../images/logo.png'
+import avatar from '../../images/avatar.png'
 
 const SideMenu = () => {
 
@@ -36,9 +37,16 @@ const SideMenu = () => {
                                 </li>
                             )
                         })}
-                    
                 </ul>
- 
+            </div>
+            <div className='side-menu-footer'>
+                <div className='avatar'>
+                    <img src={avatar} alt='avatar' />
+                </div>
+                <div className='user-info'> 
+                    <h5>user name</h5>
+                    <p>user@emailadress</p>
+                </div>
             </div>
         </div>
     )
