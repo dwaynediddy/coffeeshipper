@@ -34,11 +34,23 @@
     position: absolute;
     top: 50%;
     right: 0px;
-    transform: translateY(-50%)
+    transform: translateY(-50%);
+    cursor: pointer;
 }
 
 .side-menu.inactive .top-section .toggle-menu-btn {
     right: -50px;
+    cursor: pointer;
+}
+
+.side-menu .main-menu .menu-item {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .divider {
@@ -48,3 +60,12 @@
     background: #333;
     margin-top: 25px;
 }
+
+li {
+    list-style: none;
+}
+
+.nav-text {
+    padding: 25px 0;
+}
+
