@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 
 // import TopNav from './components/navigation/TopNav'
-import SideBar from './components/navigation/SideBar'
+// import SideBar from './components/navigation/SideBar'
+import SideMenu from './components/navigation/SideMenu'
 import Landing from './components/Landing'
 import Banner from './components/Banner'
 import ContactUs from './components/ContactForm'
@@ -13,8 +14,10 @@ function App() {
     <>
       <Router className="App">
           {/* <TopNav /> */}
-          <SideBar />
+          {/* <SideBar /> */}
+          <SideMenu /> 
         <Switch>
+
           <Route path="/" />
         </Switch>
         <Landing />

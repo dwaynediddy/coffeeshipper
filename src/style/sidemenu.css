@@ -1,0 +1,165 @@
+.side-menu {
+    position: fixed;
+    background: #000;
+    width: 300px;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+    transition: width 200ms ease-in
+}
+
+.side-menu.inactive {
+    width: 80px;
+}
+
+.side-menu .logo {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.side-menu .top-section {
+    position: relative;
+}
+
+.side-menu .logo img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.side-menu .top-section .toggle-menu-btn {
+    color: #333;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.side-menu .top-section .toggle-menu-btn:hover {
+    color: #fff;
+}
+.side-menu.inactive .top-section .toggle-menu-btn:hover {
+    color: #000;
+}
+
+.side-menu.inactive .top-section .toggle-menu-btn {
+    right: -50px;
+    cursor: pointer;
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+}
+
+
+.side-menu .main-menu .menu-item {
+    color: #333;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.side-menu .main-menu .menu-item span {
+    position: absolute;
+    display: inline-block; 
+}
+
+.side-menu.inactive .main-menu .menu-item span {
+    opacity: 0;
+}
+
+.divider {
+    width: 100%;
+    height: 1px;
+    border-radius: 1px;
+    background: #333;
+    margin-top: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+.nav-home {
+    padding: 25px 0;
+}
+.nav-home:hover {
+    color: #fff;
+}
+.nav-shop {
+    padding: 25px 0;
+}
+.nav-shop:hover {
+    color: #fff;
+}
+.nav-contact {
+    padding: 25px 0;
+}
+.nav-contact:hover {
+    color: #fff;
+}
+.nav-login {
+    padding: 25px 0;
+}
+.nav-login:hover {
+    color: #fff;
+}
+.nav-cart {
+    padding: 25px 0;
+}
+.nav-cart:hover {
+    color: #fff;
+}
+
+.side-menu-footer {
+    width: 100%;
+    background: #333;
+    position: absolute;
+    bottom: 0;
+    left: 0;   
+    padding: 20px; 
+    box-sizing: border-box;
+}
+
+.side-menu-footer .avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.side-menu-footer .avatar img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.side-menu-footer .user-info {
+    display: inline-block;
+    margin: 0 15px;
+    color: #faf9f5;
+    position: absolute;
+    opacity: 1;
+    transition: opacity 0.2s ease-in;
+}
+
+.side-menu.inactive .side-menu-footer .user-info {
+    opacity: 1;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+
+.side-menu-footer .user-info h5 {
+    font-size: 16px;
+    margin: 0;
+}
+.side-menu-footer .user-info p {
+    font-size: 14px;
+    margin: 0;
+}
