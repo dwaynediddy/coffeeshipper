@@ -5,7 +5,8 @@ body {
 }
 
 .banner-container {
-    background-color: #160f1b;
+    background-color: #291014;
+    /* background-color: #160f1b; */
     display: flex;
     align-items: row;
     justify-content: center;
