@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import SideMenu from './components/navigation/SideMenu'
 import Landing from './components/Landing'
 import Banner from './components/Banner'
+import MainItem from './components/faders/MainItem'
 import ContactUs from './components/ContactForm'
 
 function App() {
@@ -22,6 +23,9 @@ function App() {
         </Switch>
         <Landing />
         <Banner />
+        <div className="products">
+        <MainItem />
+        </div>
         <ContactUs />
       </Router>
     </>

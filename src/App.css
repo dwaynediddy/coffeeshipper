@@ -1,9 +1,21 @@
 body {
   background-color: #e9e7e0;
+  margin: 0;
+  padding: 0;
 }
 
 .App {
   text-align: center;
+}
+
+.products {
+  display: flex;
+  align-items: row;
+  justify-content: center;
+  height: 300px;
+  width: 91vw;
+  background-color: red;
+  padding: 55px;
 }
 
 
