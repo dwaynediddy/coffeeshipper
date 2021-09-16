@@ -1,7 +1,8 @@
 .main-container {
     display: flex;
     align-items: column;
-    height: 400px
+    height: 400px;
+    background-color: red
 }
 
 .animate__fadeInLeft {
@@ -23,7 +24,8 @@
 .second-container {
     display: flex;
     justify-content: column;
-    height: 400px
+    height: 400px;
+    background-color: blue;
 
 }
 
@@ -46,7 +48,8 @@
 .third-container {
     display: flex;
     justify-content: column;
-    height: 400px
+    height: 400px;
+    background-color: rgb(255, 234, 0);
 
 }
 
