@@ -1,9 +1,8 @@
 body {
   background-color: #e9e7e0;
+  position: absolute;
 }
 
 .App {
   text-align: center;
 }
-
-

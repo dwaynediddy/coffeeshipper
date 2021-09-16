@@ -1,17 +1,28 @@
 import React from 'react'
-import '../../style/nav.css';
+import { BrowserRouter as Link } from 'react-router-dom'
+
+import '../../style/nav.css'
+
+import { SideBarData } from './SideBarData'
+
+import logo from '../../images/logo.png'
 
 const TopNav = () => {
     return (
         <div className="nav">
-            <div className="logo">logo</div>
-            <ul>
-                <li>Home</li>
-                <li>Shop</li>
-                <li>Contact</li>
-                <li>Login</li>
-            </ul>
-                <div className="cart">Cart</div>
+            <img src={logo} className="logo" alt="logo" />
+            <ul className='menu-item'>
+                    {SideBarData.map((item, index) => {
+                            return (
+                                <li key={index} className={item.cName}>
+                                    <Link to={item.path}>
+                                        {item.icon}
+                                        <span>{item.title}</span>
+                                    </Link>
+                                </li>
+                            )
+                        })}
+                </ul>
         </div>
     )
 }
