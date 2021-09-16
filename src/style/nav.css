@@ -13,7 +13,8 @@ ul {
     cursor: pointer;
     align-items: center;
     height: 50px;
-    width: 50px;
+    width: 55px;
+    border-radius: 50%;
 }
 
 .nav {
