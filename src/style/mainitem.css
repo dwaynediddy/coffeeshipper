@@ -1,5 +1,6 @@
 .main-container {
     display: block;
+    height: 400px
 }
 
 .animate__fadeInLeft {
@@ -13,7 +14,51 @@
     justify-content: center;
 }
 
-img {
+.main-container img {
+    height: 100px;
+    width: 100px;
+}
+
+.second-container {
+    display: block;
+    height: 400px
+
+}
+
+.animate__fadeInLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animate__fadeInRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-container img {
+    height: 100px;
+    width: 100px;
+}
+
+.third-container {
+    display: block;
+    height: 400px
+
+}
+
+.animate__fadeInLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.animate__fadeInRight {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.third-container img {
     height: 100px;
     width: 100px;
 }
