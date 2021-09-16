@@ -5,12 +5,15 @@ ul {
     font-family: 'M PLUS 1p', sans-serif;
     width: 100%;
     cursor: pointer;
+    float: right;
     
 }
 
 .logo {
     cursor: pointer;
     align-items: center;
+    height: 50px;
+    width: 50px;
 }
 
 .nav {
@@ -18,14 +21,41 @@ ul {
     display: flex;
     align-items: center;
     width: 100%;
+    height: 80px;
     font-family: 'M PLUS 1p', sans-serif;
-    background-color: rgb(184, 31, 31);
-    
+    background-color: rgb(184, 31, 31);  
     
 }
 
-.cart {
+.nav-home {
+    padding: 25px;
+}
+
+.nav-home:hover {
+    color: #fff;
+}
+.nav-shop {
+    padding: 25px;
+}
+.nav-shop:hover {
+    color: #fff;
+}
+.nav-contact {
+    padding: 25px;
+}
+.nav-contact:hover {
+    color: #fff;
+}
+.nav-login {
+    padding: 25px;
+}
+.nav-login:hover {
+    color: #fff;
+}
+.nav-cart {
+    padding: 25px;
     float: right;
-    cursor: pointer;
-    align-items: center;
+}
+.nav-cart:hover {
+    color: #fff;
 }

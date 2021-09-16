@@ -1,5 +1,6 @@
 .main-container {
-    display: block;
+    display: flex;
+    align-items: column;
     height: 400px
 }
 
@@ -20,7 +21,8 @@
 }
 
 .second-container {
-    display: block;
+    display: flex;
+    justify-content: column;
     height: 400px
 
 }
@@ -42,7 +44,8 @@
 }
 
 .third-container {
-    display: block;
+    display: flex;
+    justify-content: column;
     height: 400px
 
 }

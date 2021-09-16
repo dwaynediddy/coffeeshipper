@@ -1,5 +1,5 @@
 import React from 'react'
-import LandingImg from '../images/hustle.jpeg'
+import LandingImg from '../images/cover.png'
 import '../style/landing.css'
 
 const Landing = () => {
