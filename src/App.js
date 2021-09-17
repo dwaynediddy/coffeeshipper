@@ -24,7 +24,6 @@ function App() {
         <Landing />
         <Banner />
         <MainItem />
-
         <ContactUs />
       </Router>
     </>

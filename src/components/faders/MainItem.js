@@ -24,17 +24,17 @@ const MainItem = () => {
                         <div className='products-data' data-aos="fade-right">
                             <h1 className='productName'>{productName}</h1>
                             <p className='productDescription'>{productDescription}</p>
-                            <button>shop</button>
+                            <button className='productBtn'>shop</button>
                         </div>
                         <div className='products-image' data-aos="fade-left">
                             <img src={mainProduct} alt='product name' />
                         </div>
                     </div>
                     <div className="products">
-                        <div className='products-data' data-aos="fade-right">
+                        <div className='products-image' data-aos="fade-right">
                             <img src={mainProduct} alt='product name' />
                         </div>
-                        <div className='products-image' data-aos="fade-left">
+                        <div className='products-data' data-aos="fade-left">
                             <h1 className='productName'>{productName}</h1>
                             <p className='productDescription'>{productDescription}</p>
                             <button>shop</button>

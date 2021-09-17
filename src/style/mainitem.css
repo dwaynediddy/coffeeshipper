@@ -9,26 +9,33 @@
     /* align-items: row; */
     margin: 20px;
     margin-top: 150px;
-    background-color: red;
+    background-color: #140e1d;
     overflow: hidden;
     height: 250px;
     max-height: 35vh;
     box-shadow: 0 12px 10px -6px #fff;
     border-radius: 10px;
+    color: #000;
 }
+
+
+
 .products-one {
     display: flex;
     /* align-items: row; */
-    background-color: red;
+    background-color: #140e1d;
     overflow: hidden;
     height: 250px;
     max-height: 35vh;
     box-shadow: 0 12px 10px -6px #fff;
     border-radius: 10px;
+    color: #000000;
 }
+
+
 .products-data {
     margin: 20px;
-    background-color: red;
+    background-color: #e9e7e0;
     overflow: hidden;
     height: 200px;
     max-height: 35vh;
@@ -37,7 +44,6 @@
 }
 .products-image {
     margin: 20px;
-    background-color: red;
     overflow: hidden;
     height: 200px;
     max-height: 35vh;
