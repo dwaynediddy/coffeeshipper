@@ -20,7 +20,7 @@ const MainItem = () => {
     return (
         <div className="main-container">
             <div class="grids">
-                    <div className="products">
+                    <div className="products-one">
                         <div className='products-data' data-aos="fade-right">
                             <h1 className='productName'>{productName}</h1>
                             <p className='productDescription'>{productDescription}</p>

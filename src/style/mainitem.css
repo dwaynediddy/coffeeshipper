@@ -1,5 +1,7 @@
 .main-container {
     background-color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .products {
@@ -7,6 +9,16 @@
     /* align-items: row; */
     margin: 20px;
     margin-top: 150px;
+    background-color: red;
+    overflow: hidden;
+    height: 250px;
+    max-height: 35vh;
+    box-shadow: 0 12px 10px -6px #fff;
+    border-radius: 10px;
+}
+.products-one {
+    display: flex;
+    /* align-items: row; */
     background-color: red;
     overflow: hidden;
     height: 250px;
