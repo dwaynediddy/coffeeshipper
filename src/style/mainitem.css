@@ -1,70 +1,15 @@
-.main-container {
-    display: flex;
-    align-items: column;
-    height: 400px;
-    background-color: red
+.products {
+    margin: 20px;
+    margin-top: 150px;
+    background-color: red;
+    overflow: hidden;
+    height: 200px;
+    max-height: 35vh;
+    box-shadow: 0 12px 10px -6px #fff;
+    border-radius: 10px;
 }
 
-.animate__fadeInLeft {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.animate__fadeInRight {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.main-container img {
-    height: 100px;
-    width: 100px;
-}
-
-.second-container {
-    display: flex;
-    justify-content: column;
-    height: 400px;
-    background-color: blue;
-
-}
-
-.animate__fadeInLeft {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.animate__fadeInRight {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.second-container img {
-    height: 100px;
-    width: 100px;
-}
-
-.third-container {
-    display: flex;
-    justify-content: column;
-    height: 400px;
-    background-color: rgb(255, 234, 0);
-
-}
-
-.animate__fadeInLeft {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.animate__fadeInRight {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.third-container img {
-    height: 100px;
-    width: 100px;
+.grids {
+    max-width: 50%;
+    margin: auto;
 }
