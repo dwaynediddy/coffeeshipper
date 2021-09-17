@@ -1,6 +1,4 @@
 .main-container {
-    margin-top: 0;
-    padding: 0;
     background-color: #fff;
 }
 
@@ -11,7 +9,7 @@
     margin-top: 150px;
     background-color: red;
     overflow: hidden;
-    height: 200px;
+    height: 250px;
     max-height: 35vh;
     box-shadow: 0 12px 10px -6px #fff;
     border-radius: 10px;
