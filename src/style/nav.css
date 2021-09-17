@@ -25,39 +25,44 @@ ul {
     width: 100%;
     height: 80px;
     font-family: 'M PLUS 1p', sans-serif;
-    background-color: rgb(184, 31, 31);  
+    background-color: #140e1d;  
     
 }
 
 .nav-home {
     padding: 25px;
+    color: #fff
 }
 
 .nav-home:hover {
-    color: #fff;
+    color: #41a891
 }
 .nav-shop {
     padding: 25px;
+    color: #fff
 }
 .nav-shop:hover {
-    color: #fff;
+    color: #41a891;
 }
 .nav-contact {
     padding: 25px;
+    color: #fff;
 }
 .nav-contact:hover {
-    color: #fff;
+    color: #41a891;
 }
 .nav-login {
     padding: 25px;
+    color: #fff;
 }
 .nav-login:hover {
-    color: #fff;
+    color: #41a891;
 }
 .nav-cart {
     padding: 25px;
+    color: #fff;
     float: right;
 }
 .nav-cart:hover {
-    color: #fff;
+    color: #41a891;
 }
