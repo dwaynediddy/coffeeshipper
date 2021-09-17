@@ -5,6 +5,8 @@
 }
 
 .products {
+    display: flex;
+    /* align-items: row; */
     margin: 20px;
     margin-top: 150px;
     background-color: red;
@@ -14,8 +16,26 @@
     box-shadow: 0 12px 10px -6px #fff;
     border-radius: 10px;
 }
+.products-data {
+    margin: 20px;
+    background-color: red;
+    overflow: hidden;
+    height: 200px;
+    max-height: 35vh;
+    box-shadow: 0 12px 10px -6px #fff;
+    border-radius: 10px;
+}
+.products-image {
+    margin: 20px;
+    background-color: red;
+    overflow: hidden;
+    height: 200px;
+    max-height: 35vh;
+    box-shadow: 0 12px 10px -6px #fff;
+    border-radius: 10px;
+}
 
 .grids {
-    max-width: 50%;
+    max-width: 70%;
     margin: auto;
 }
