@@ -21,12 +21,17 @@ const MainItem = () => {
             <div class="grids">
                 <h1>{productName}</h1>
                 <p>{productDescription}</p>
-                    <div className='products' data-aos="fade-up">1</div>
-                    <div className='products' data-aos="fade-up">2</div>
-                    <div className='products' data-aos="fade-up">3</div>
+                    <div className='products' data-aos="fade-up">
+                        <img src={mainProduct} alt='product name' />
+                    </div>
+                    <div className='products' data-aos="fade-up">
+                        <img src={mainProduct} alt='product name' />
+                    </div>
+                    <div className='products' data-aos="fade-up">
+                        <img src={mainProduct} alt='product name' />
+                    </div>
             </div>
             <div className="wow fadeInRight">
-                <img src={mainProduct} alt='product name' />
             </div>
         </div>
     )
