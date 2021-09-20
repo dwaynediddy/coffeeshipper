@@ -66,3 +66,20 @@ ul {
 .nav-cart:hover {
     color: #41a891;
 }
+
+@media only screen and (min-width: 768px) {
+    button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    ul {
+        font-size: 8px;
+        display: none;
+    }
+    
+    button {
+        display: flex;
+    }
+}

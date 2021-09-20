@@ -2,12 +2,12 @@
     background-color: #fff;
     padding-top: 100px;
     padding-bottom: 100px;
+    width: 100vw;
 }
 
 .products {
     display: flex;
     /* align-items: row; */
-    margin: 20px;
     margin-top: 150px;
     background-color: #140e1d;
     overflow: hidden;
@@ -15,7 +15,7 @@
     max-height: 35vh;
     box-shadow: 0 12px 10px -6px #fff;
     border-radius: 10px;
-    color: #000;
+
 }
 
 
@@ -35,7 +35,7 @@
 
 .products-data {
     margin: 20px;
-    background-color: #e9e7e0;
+    background-color: #fff;
     overflow: hidden;
     height: 200px;
     max-height: 35vh;
