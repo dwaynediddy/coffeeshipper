@@ -30,7 +30,8 @@ const TopNav = () => {
                             )
                         })}
                 </div>
-                    <div onclick={() => setInactive(!inactive)} className="toggle-button">
+                <div className="menu-dropdown">
+                    <div onClick={() => setInactive(!inactive)} className="toggle-button">
                         
                         {inactive ? 
                             <AiIcons.AiOutlineClose />
@@ -38,7 +39,6 @@ const TopNav = () => {
                             <FaIcons.FaBars />
                         }
                     </div>
-                <div className="menu-dropdown">
                         <div className={`dropdown ${inactive ? 'active' : ''}`}>
                         {SideBarData.map((item, index) => {
                                 return (
