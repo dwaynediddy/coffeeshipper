@@ -30,8 +30,7 @@
 
 .nav-home {
     padding: 25px;
-    color: #fff;
-    
+    color: #fff; 
 }
 
 .nav-home:hover {
@@ -74,19 +73,28 @@
     .nav button {
         display: none;
     }
-    .menu-dropdown {
+    .nav .menu-dropdown {
         display: none;
     }
+
+    .toggle-button {
+        display: none;
+    }
+    
 }
 
 @media only screen and (max-width: 768px) {
     .nav .menu-item {
         display: none;
     }
-
+    
     .nav button {
         display: flex;
     }
+    .dropdown {
+        display: none;
+    }
+    
    
 }
 
@@ -94,7 +102,7 @@
     margin: 20px;
 }
 
- .menu-dropdown .dropdown {
+ .menu-dropdown .dropdown.active {
     position: absolute;
     left: 0;
     top: 80px;
@@ -107,7 +115,11 @@
     align-items: center;
 }
 
-.menu-dropdown.inactive {
+.menu-dropdown .dropdown.inactive {
+    display: none;
+}
+
+.menu-dropdown .nav-contact.inactive {
     display: none;
 }
 

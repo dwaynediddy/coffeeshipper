@@ -19,18 +19,17 @@ const TopNav = () => {
             <div className='menu-item'>
                     {SideBarData.map((item, index) => {
                             return (
-                                <>
-                                <div key={index} className={item.cName}>
-                                    <Link to={item.path}>
-                                        {item.icon}
-                                        <span>{item.title}</span>
-                                    </Link>
+                                <div className='top-nav'>
+                                    <div key={index} className={item.cName}>
+                                        <Link to={item.path}>
+                                            {item.icon}
+                                            <span>{item.title}</span>
+                                        </Link>
+                                    </div>
                                 </div>
-                                </>
                             )
                         })}
                 </div>
-                <div className="menu-dropdown">
                     <div onClick={() => setInactive(!inactive)} className="toggle-button">
                         
                         {inactive ? 
@@ -39,6 +38,7 @@ const TopNav = () => {
                             <FaIcons.FaBars />
                         }
                     </div>
+                <div className="menu-dropdown">
                         <div className={`dropdown ${inactive ? 'active' : ''}`}>
                         {SideBarData.map((item, index) => {
                                 return (
