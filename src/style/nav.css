@@ -1,11 +1,10 @@
-ul {
+.nav .menu-item {
     display: flex;
-    align-items: column;
-    list-style: none;
+    align-items: row;
     font-family: 'M PLUS 1p', sans-serif;
     width: 100%;
     cursor: pointer;
-    float: right;
+
     
 }
 
@@ -31,7 +30,8 @@ ul {
 
 .nav-home {
     padding: 25px;
-    color: #fff
+    color: #fff;
+    
 }
 
 .nav-home:hover {
@@ -69,35 +69,49 @@ ul {
 
 /* drop down menu styling */
 
+
 @media only screen and (min-width: 768px) {
     .nav button {
+        display: none;
+    }
+    .menu-dropdown {
         display: none;
     }
 }
 
 @media only screen and (max-width: 768px) {
-    ul {
-        font-size: 8px;
+    .nav .menu-item {
         display: none;
     }
-    
+
     .nav button {
         display: flex;
     }
+   
 }
 
 .nav button {
     margin: 20px;
 }
 
-.nav .drop-nav {
+ .menu-dropdown .dropdown {
     position: absolute;
     left: 0;
     top: 80px;
-    height: 250px;
+    height: 450px;
+    max-height: 450px;
     width: 100%;
     background-color: red;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.menu-dropdown.inactive {
+    display: none;
+}
+
+.toggle-button {
+    cursor: pointer;
+    color: #fff
 }

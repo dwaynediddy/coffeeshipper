@@ -3,6 +3,9 @@ import { BrowserRouter as Link } from 'react-router-dom'
 
 import '../../style/nav.css'
 
+import * as FaIcons from 'react-icons/fa'
+import * as AiIcons from 'react-icons/ai'
+
 import { SideBarData } from './SideBarData'
 
 import logo from '../../images/logo.png'
@@ -11,38 +14,44 @@ const TopNav = () => {
     const [ inactive, setInactive ] = useState(false)
 
     return (
-        <div className={`nav ${inactive ? 'active' : ''}`}>
+        <div className='nav'>
             <img src={logo} className="logo" alt="logo" />
-            <ul className='menu-item'>
+            <div className='menu-item'>
                     {SideBarData.map((item, index) => {
                             return (
                                 <>
-                                <li key={index} className={item.cName}>
+                                <div key={index} className={item.cName}>
                                     <Link to={item.path}>
                                         {item.icon}
                                         <span>{item.title}</span>
                                     </Link>
-                                </li>
+                                </div>
                                 </>
                             )
                         })}
-                </ul>
-                <button onclick={() => setInactive(!inactive)} className="toggle-dropdown">
-                </button>
-                    <ul className={`drop-nav ${inactive ? 'active' : ''}`}>
+                </div>
+                    <div onclick={() => setInactive(!inactive)} className="toggle-button">
+                        
+                        {inactive ? 
+                            <AiIcons.AiOutlineClose />
+                        : 
+                            <FaIcons.FaBars />
+                        }
+                    </div>
+                <div className="menu-dropdown">
+                        <div className={`dropdown ${inactive ? 'active' : ''}`}>
                         {SideBarData.map((item, index) => {
                                 return (
-                                    <>
-                                    <li key={index} className={item.cName}>
+                                    <div key={index} className={item.cName}>
                                         <Link to={item.path}>
                                             {item.icon}
                                             <span>{item.title}</span>
                                         </Link>
-                                    </li>
-                                    </>
+                                    </div>
                                 )
                             })}
-                    </ul>
+                    </div>
+                </div>
         </div>
     )
 }
