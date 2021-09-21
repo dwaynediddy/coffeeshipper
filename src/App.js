@@ -10,6 +10,7 @@ import Banner from './components/Banner'
 import MainItem from './components/faders/MainItem'
 
 import ContactUs from './components/ContactForm'
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <MainItem />
         <ContactUs />
       </Router>
+        <Footer />
     </>
   )
 }
