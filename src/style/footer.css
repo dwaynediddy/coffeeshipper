@@ -32,14 +32,13 @@
     width: 100%;
 }
 
-.instagramIcon {
+.icon {
 cursor: pointer;
 height: 40px;
 width: 40px;
 font-size: 0.8em;
 }
-.instagramIcon:hover {
+.icon:hover {
 cursor: pointer;
-color: #eb4f47;
-
+color: #41a891;
 }
